@@ -12,7 +12,6 @@
 	<groupId>com.angularwithspring</groupId>
 	<artifactId>onlinebookstore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>Online Book Store</name>
 	<description>Angular 8 and Spring Boot Full Stack Development
 	</description>
@@ -73,4 +72,5 @@
 		</plugins>
 	</build>
 
+	<packaging>war</packaging>
 </project>
