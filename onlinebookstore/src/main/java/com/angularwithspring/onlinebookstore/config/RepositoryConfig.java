@@ -13,6 +13,8 @@ public class RepositoryConfig implements RepositoryRestConfigurer {
 	public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
 		config.exposeIdsFor(Book.class);
 		config.exposeIdsFor(Category.class);
+
+		config.getCorsRegistry().addMapping("/**").allowedOrigins("*");
 	}
 
 }
